@@ -1,4 +1,4 @@
-Assumptions made during development:
+Assumptions made during development: /n
 1- Checkout is a full service that should has its own view class for containing it logic of displaying the items
 2- Shipment is a part of the checkout phase, meaning that checkout will be calling shipment service class to use its business logic
 3- the method responsible for handling the shipped items has to be static, so that every part can access it without having any access/control over the whole shipping service as it will deal with some sensitive information such as address,etc.
